@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tab{
+    width: 30%;
+    margin: 0 auto;
+}
+.tab_head{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: aqua;
+}
+.tab_body{
+    background-color: aqua;
+}
+.tab_head div{
+    text-align: center;
+}
+.tab_body p{
+    font-size: 13px;
+}
+.tab_head div{
+    cursor: pointer;
+}
+.tabs{
+    display: none;
+}
+.tabs.active{
+    display: block;
+    background-color: antiquewhite;
+}
+@media (max-width: 600px) {
+   .tab{
+    width: 100%;
+   }
+}

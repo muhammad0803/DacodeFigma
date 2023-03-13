@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.OurClients{
+    padding: 4% 10%;
+
+}
+
+.OurClients_bottom p:first-child{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.6px;
+color: #000000;
+}
+.OurClients_bottom p:last-child{
+    font-family: 'Circular Std';
+font-style: italic;
+font-weight: 600;
+font-size: 17px;
+line-height: 177.2%;
+text-align: center;
+color: #292525;
+margin-bottom: 20px;
+}
+
+.OurClients_bottom{
+    padding: 10px 20px;
+    background: #FDFDFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px;
+}
+.OurClients{
+   padding: 5% 24%
+}
+.section5 h2 {
+    font-size: 22px;
+}
+.OurClient div .star{
+    color: #FBBE36;;
+}
+.our{
+    font-family: 'Circular Std';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #7BC0E3;
+}
+.OurClients h3{
+    text-align: center;
+    font-size: 25px;
+    color: #292525;
+    padding: 15px;
+}
+.OurClient div{
+    padding: 15px;
+}
+/* .OurClient {
+    padding: 30px;
+} */
+
+
+@media (max-width:600px){
+    .OurClients_bottom{
+        padding: 0;
+    }
+    .OurClients{
+        padding: 6% 6%;
+    }
+    .OurClients_bottom p:last-child{
+        font-size: 13px;
+    }
+}

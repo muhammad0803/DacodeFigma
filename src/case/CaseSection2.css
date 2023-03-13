@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CaseSection2_cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 3% 15%;
+    gap: 20px;
+    margin: 0 auto;
+
+}
+.CaseSection2_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FDFDFF;
+    box-shadow: 0px 24px 56px rgba(7, 0, 59, 0.12);
+    border-radius: 12px;
+    padding: 20px;
+    gap: 10px;
+}
+.CaseSection2_card div{
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    background: #60E1CB;
+    opacity: 0.1;
+    border-radius: 80px;
+}
+.CaseSection2_card h4{
+    color: #292525;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CaseSection2_card .des2{
+    color: #60E1CB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CaseSection2_card .des3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background: #60E1CB;
+    opacity: 0.4;
+    color: #292525;
+    border-radius: 20px;
+    font-weight: 800;
+}
+.CaseSection2Modal h4{
+    cursor: pointer;
+}
+.CaseSection2Modal{
+    position: absolute;
+    top: -500px;
+    background-color: #7BC0E3;
+    width: 400px;
+    opacity: 0.7;
+    padding: 20px;
+    box-shadow: 0px 24px 56px rgba(7, 0, 59, 0.12);
+    border-radius: 12px;
+    width: 20%;
+    transition: 0.5s;
+}
+.CaseSection2Modal.active{
+    position: fixed;
+    top: 50px;
+    transition: 0.5s;
+    
+}
+.CaseSection2_card button{
+    background: #60E1CB;
+    border-radius: 1000px;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    
+
+}
+.input{
+    display: flex;
+    width: 300px;
+    background: white;
+box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+border-radius: 1000px;
+justify-content: space-between;
+padding:5px 5px ;
+}
+.input input{
+    border: none;
+    background: white;
+    width: 100%;
+
+}
+.input div{
+    background: #60E1CB;
+border-radius: 1000px;
+padding: 5px 10px;
+display: flex;
+flex-direction: column;
+}
+.caseSection1{
+    padding: 4% 7% 14% 7%;
+    background: #60E1CB;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.caseSection1 h1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 58px;
+line-height: 112.5%;
+text-align: center;
+letter-spacing: -0.015em;
+color: #292525;
+}
+.caseSection1 p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 157.2%;
+text-align: center;
+color: #292525;
+opacity: 0.6;
+}
+.OurClient div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .caseSection1 h1{
+        font-size: 29px;
+    }
+    .input{
+        width: 200px;
+    }
+    .code_section1 .input {
+        width: 200px;
+        display: none;
+    }
+    .caseSection1 p{
+        font-size: 18px;
+        text-align: left;
+    }
+    .CaseSection2_cards{
+        grid-template-columns: auto;
+        padding: 3% 17%;
+    }
+    .CaseSection2Modal {
+        width: 70%;
+    }
+    
+
+}
